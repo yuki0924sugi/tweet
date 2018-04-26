@@ -71,13 +71,13 @@ header {
 .header-logo {
   float: left;
   padding-left: 20px;
-  color: white;
+  color: black;
   font-size: 22px;
   line-height: 64px;
 }
 
 .header-logo a{
-  color: white;
+  color: black;
   font-size: 22px;
 }
 
@@ -97,7 +97,7 @@ header {
 .header-menus a {
   float: left;
   font-size: 13px;
-  color: white;
+  color: black;
 }
 
 .header-menus .fa {
@@ -210,7 +210,7 @@ header {
 }
 
 .form input[type="submit"] {
-  background-color: #3ecdc6;
+  background-color: blue;
   color: white;
   cursor: pointer;
   font-weight: 300;
