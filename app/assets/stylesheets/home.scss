@@ -77,7 +77,7 @@ header {
 }
 
 .header-logo a{
-  color: black;
+  color: white;
   font-size: 22px;
 }
 
@@ -97,7 +97,7 @@ header {
 .header-menus a {
   float: left;
   font-size: 13px;
-  color: black;
+  color: white;
 }
 
 .header-menus .fa {
@@ -122,11 +122,11 @@ header {
   width: 100%;
   height: auto;
   min-height: 100%;
-  color: blue;
+  color:white;
   background-repeat: no-repeat;
   background-position: center 50%;
   background-size: cover;
-  background-image: url("/IMG_8430.JPG");
+  background-image: url("/bg-top.png");
 }
 
 .top-message {
@@ -144,17 +144,18 @@ header {
 .top-main p {
   font-size: 24px;
 }
-
-.about-img {
-  width: 84%;
-
-}
 .about-main {
 
 
   padding: 180px 8% 0;
   color: white;
 }
+
+.about-img {
+  width: 84%;
+
+}
+
 
 .about-main h2 {
   font-size: 64px;
