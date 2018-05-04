@@ -10,9 +10,11 @@
         <% end %>
         <%=form_tag("/users/create") do%>
         <p>User name</p>
-        <input name="name">
+        <input name="name" value="<%= @user.name %>">
         <p>E-Mail address</p>
-        <input name="email">
+        <input name="email" value="<%= @user.email %>">
+        <p>Password</p>
+        <input type="password" name="password" value="<%= @user.password %>">
         <input type="submit" value="Entry">
         <%end%>
       </div>
